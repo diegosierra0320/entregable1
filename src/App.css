@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.App {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 1em;
+    padding: 1em;
+    box-shadow: 1px 1px 20px #0005;
+    text-align: end;
+    overflow: hidden;
+}
+
+.btn {
+    border: none;
+    border-radius: 100%;
+    width: 40px;
+    height: 40px;
+    color: white;
+    box-shadow: 1px 1px 20px #0005;
+}
